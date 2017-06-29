@@ -30,16 +30,16 @@ public class Poder {
                     m=m+r[p];
                     
                 }
-                else
+                else{
                     m=r[j]+r[p];
                 }
+                }
+               m=0;     
           
             }
-        
-        m=0;
-        
-    System.out.println(reita);
+            System.out.println(reita);
+        }
     }
 }
-
-}
+        
+    
