@@ -10,10 +10,10 @@ public class Poder {
         Scanner azu = new Scanner(System.in);
         int a = azu.nextInt();
         int b = azu.nextInt();
-        if(a>=1 && a<=100 && b>=1 && b<=10){
+        if(a>=1 && a<=1000 && b>=2 && b<=10){
             double root = Math.pow(a, 1/(double)b);
-            int rootx = (int)root;
-                int[]r = new int [rootx];
+            int root1 = (int)root;
+                int[]r = new int [root1];
             int reita = 0;
             for (int i=0; i<r.length; i++){
                 r[i]= (int)Math.pow(i+1,b);
